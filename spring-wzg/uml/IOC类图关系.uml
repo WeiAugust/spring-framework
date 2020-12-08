@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.context.annotation.AnnotationConfigApplicationContext</OriginalElement>
+  <nodes>
+    <node x="268.49999999999994" y="107.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+    <node x="1628.2930107526881" y="0.0">org.springframework.core.io.ResourceLoader</node>
+    <node x="900.5215053763442" y="224.0">org.springframework.context.ApplicationContext</node>
+    <node x="649.5215053763442" y="438.0">org.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+    <node x="1098.4602150537635" y="545.0">org.springframework.context.support.GenericApplicationContext</node>
+    <node x="896.9602150537634" y="652.0">org.springframework.context.annotation.AnnotationConfigApplicationContext</node>
+    <node x="519.693010752688" y="331.0">org.springframework.core.AliasRegistry</node>
+    <node x="1213.9602150537635" y="438.0">org.springframework.context.support.AbstractApplicationContext</node>
+    <node x="1737.2930107526881" y="107.0">org.springframework.core.io.DefaultResourceLoader</node>
+    <node x="1191.2930107526881" y="107.0">org.springframework.core.env.EnvironmentCapable</node>
+    <node x="840.5215053763442" y="331.0">org.springframework.context.ConfigurableApplicationContext</node>
+    <node x="75.50483870967753" y="0.0">org.springframework.beans.factory.BeanFactory</node>
+    <node x="675.2930107526881" y="107.0">org.springframework.context.ApplicationEventPublisher</node>
+    <node x="1439.2930107526881" y="107.0">org.springframework.core.io.support.ResourcePatternResolver</node>
+    <node x="184.0" y="545.0">org.springframework.beans.factory.support.DefaultListableBeanFactory</node>
+    <node x="790.4602150537634" y="545.0">org.springframework.context.annotation.AnnotationConfigRegistry</node>
+    <node x="993.2930107526881" y="107.0">org.springframework.context.MessageSource</node>
+    <node x="10.5" y="107.0">org.springframework.beans.factory.ListableBeanFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+      <point x="0.0" y="-28.5" />
+      <point x="407.49999999999994" y="82.0" />
+      <point x="207.17150537634427" y="82.0" />
+      <point x="52.66666666666674" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.support.GenericApplicationContext" target="org.springframework.context.support.AbstractApplicationContext">
+      <point x="74.5" y="-28.5" />
+      <point x="1321.9602150537635" y="525.0" />
+      <point x="1367.9602150537635" y="525.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.ListableBeanFactory">
+      <point x="-61.59999999999991" y="-28.5" />
+      <point x="276.4000000000001" y="515.0" />
+      <point x="70.0" y="515.0" />
+      <point x="-59.5" y="28.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+      <point x="0.0" y="-28.5" />
+      <point x="129.5" y="82.0" />
+      <point x="154.50483870967753" y="82.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.core.io.DefaultResourceLoader" target="org.springframework.core.io.ResourceLoader">
+      <point x="0.0" y="-28.5" />
+      <point x="1866.2930107526881" y="82.0" />
+      <point x="1769.2930107526881" y="82.0" />
+      <point x="47.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.core.AliasRegistry">
+      <point x="61.59999999999991" y="-28.5" />
+      <point x="399.5999999999999" y="515.0" />
+      <point x="536.443010752688" y="515.0" />
+      <point x="536.443010752688" y="413.0" />
+      <point x="564.193010752688" y="413.0" />
+      <point x="-44.5" y="28.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+      <point x="-123.20000000000005" y="-28.5" />
+      <point x="214.79999999999995" y="525.0" />
+      <point x="0.0" y="525.0" />
+      <point x="0.0" y="82.0" />
+      <point x="101.83817204301079" y="82.0" />
+      <point x="-52.66666666666674" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.ApplicationEventPublisher">
+      <point x="-19.0" y="-28.5" />
+      <point x="995.5215053763442" y="184.0" />
+      <point x="824.2930107526881" y="184.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.MessageSource">
+      <point x="19.0" y="-28.5" />
+      <point x="1033.521505376344" y="184.0" />
+      <point x="1082.2930107526881" y="184.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.support.BeanDefinitionRegistry">
+      <point x="123.20000000000005" y="-28.5" />
+      <point x="461.20000000000005" y="525.0" />
+      <point x="716.5215053763442" y="525.0" />
+      <point x="-67.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.context.ConfigurableApplicationContext">
+      <point x="-77.0" y="-28.5" />
+      <point x="1290.9602150537635" y="413.0" />
+      <point x="1014.5215053763442" y="413.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.support.GenericApplicationContext" target="org.springframework.beans.factory.support.BeanDefinitionRegistry">
+      <point x="-74.5" y="-28.5" />
+      <point x="1172.9602150537635" y="525.0" />
+      <point x="850.5215053763442" y="525.0" />
+      <point x="67.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.env.EnvironmentCapable">
+      <point x="57.0" y="-28.5" />
+      <point x="1071.521505376344" y="194.0" />
+      <point x="1305.2930107526881" y="194.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.annotation.AnnotationConfigRegistry">
+      <point x="-97.0" y="-28.5" />
+      <point x="993.9602150537634" y="627.0" />
+      <point x="934.4602150537634" y="627.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader">
+      <point x="0.0" y="-28.5" />
+      <point x="1578.2930107526881" y="82.0" />
+      <point x="1675.2930107526881" y="82.0" />
+      <point x="-47.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.DefaultListableBeanFactory" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+      <point x="0.0" y="-28.5" />
+      <point x="-69.5" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.core.io.DefaultResourceLoader">
+      <point x="77.0" y="-28.5" />
+      <point x="1444.9602150537635" y="413.0" />
+      <point x="1866.2930107526881" y="413.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.annotation.AnnotationConfigApplicationContext" target="org.springframework.context.support.GenericApplicationContext">
+      <point x="97.0" y="-28.5" />
+      <point x="1187.9602150537635" y="627.0" />
+      <point x="1247.4602150537635" y="627.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.BeanDefinitionRegistry" target="org.springframework.core.AliasRegistry">
+      <point x="0.0" y="-28.5" />
+      <point x="783.5215053763442" y="413.0" />
+      <point x="653.193010752688" y="413.0" />
+      <point x="44.5" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.ApplicationContext">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+      <point x="-57.0" y="-28.5" />
+      <point x="957.5215053763442" y="194.0" />
+      <point x="476.99999999999994" y="194.0" />
+      <point x="69.5" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
+      <point x="-95.0" y="-28.5" />
+      <point x="919.5215053763442" y="204.0" />
+      <point x="189.0" y="204.0" />
+      <point x="59.5" y="28.5" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.io.support.ResourcePatternResolver">
+      <point x="95.0" y="-28.5" />
+      <point x="1109.521505376344" y="204.0" />
+      <point x="1578.2930107526881" y="204.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8417009602194787" x="882.4015645371578" y="1001.4551825293352" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
